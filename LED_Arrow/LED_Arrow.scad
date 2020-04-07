@@ -10,16 +10,16 @@ linear_extrude(height = 20){
         translate([25,-7.5,0])
             square([120,15]);
     //color("red")
-        translate([130,-24.5,0])
-            square([22,49]);
+        translate([130,-11,0])
+            square([49,22]);
 }
 translate([0,0,-2])
 {
     linear_extrude(height = 20)
     {
         color("red")
-            translate([131.5,-23,-2])
-                square([19,46]);
+            translate([131.5,-9.5,-2])
+                square([46,19]);
         color("red")
             translate([16,-5.5,-2])
                 square([119,11]);
